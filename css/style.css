@@ -10,7 +10,7 @@
   --footer-background: #2f303a;
 }
 
-.body {
+body {
   font-family: Roboto, sans-serif;
   color: var(--body-color);
 }
@@ -61,7 +61,7 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--header-link);
+  color: #757575;
 }
 .header-link-tel {
   font-family: Roboto;
@@ -98,6 +98,12 @@ a {
   color: white;
 }
 .btn {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
   background-color: var(--btn-back);
   color: var(--btn-color);
   cursor: pointer;
@@ -140,6 +146,8 @@ a {
 }
 .team-name {
   font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
   font-size: 16px;
   line-height: 0.84;
   letter-spacing: 0.03em;
@@ -147,6 +155,8 @@ a {
 }
 .team-post {
   font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
   font-size: 16px;
   line-height: 0.84;
   letter-spacing: 0.03em;
@@ -158,6 +168,12 @@ a {
   color: white;
   background-color: var(--logo-color);
   cursor: pointer;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
 }
 .main-servies {
   font-family: Roboto;
@@ -183,6 +199,8 @@ a {
 }
 .footer-address {
   font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -195,6 +213,8 @@ a {
 .fmail,
 .ftel {
   font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
